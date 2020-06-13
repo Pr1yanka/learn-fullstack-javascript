@@ -1,1 +1,9 @@
-C:\Users\pagagraw.ORADEV\Documents\Node js ET LL\learn-fullstack-javascript
+/* eslint-disable linebreak-style */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);

@@ -1,1 +1,9 @@
-C:\Users\pagagraw.ORADEV\Documents\Node js ET LL\learn-fullstack-javascript
+import express from 'express';
+
+const router = express.Router();
+
+router.get('/', (req,res) =>{
+  res.send({data: []});
+});
+
+export default router;
